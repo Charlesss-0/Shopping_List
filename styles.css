@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #eef0f4; */
+    background-color: #dce1eb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 1rem;
+    background-color: #dce1eb;
+}
+
+input {
+    color: #432000;
+    background-color: #eef0f4;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nunito', 'Montserrat', sans-serif;
+}
+
+input:focus {
+    outline: solid aqua;
+}
+
+button {
+    color: #fdfdfd;
+    background-color: #308AA1;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Nunito', 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-family: 'Nunito', 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    box-shadow: 0 3px 5px rgba(9, 12, 15,.1);
+    border-radius: 8px;
+    flex: 1 1 auto;
+    text-align: center;
+}
