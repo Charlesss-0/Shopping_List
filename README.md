@@ -1,1 +1,1 @@
-# Shopping_List
+My first website meant for an smartphone user
